@@ -38,6 +38,14 @@ const data = rawData.split('\n').map((d, y) =>
     })
 )
 
+// const visualizeMap = (data) => {
+//     const map = data.map(r =>
+//         r.map(d => d.tile).join('')
+//     ).join('\n').replaceAll('-', '─').replaceAll('|', '│').replaceAll('7', '┐').replaceAll('J', '┘').replaceAll('L', '└').replaceAll('F', '┌')
+//     console.log(map)
+// }
+// visualizeMap(data)
+
 // s
 if (
     startPoint.y + 1 < data.length &&
