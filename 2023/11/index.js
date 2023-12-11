@@ -25,28 +25,6 @@ for (let x = 0; x < data[0].length; x++) {
     }
 }
 
-// const expanded = data
-//     .map((r) => {
-//         const isSpaceOnly = r.filter((d) => d !== '.').length === 0
-//         if (isSpaceOnly) return [r, r]
-//         return [r]
-//     })
-//     .flat()
-
-// for (let x = 0; x < expanded[0].length; x++) {
-//     let isSpaceOnly = true
-//     for (let y = 0; y < expanded.length; y++) {
-//         if (expanded[y][x] !== '.') {
-//             isSpaceOnly = false
-//             break
-//         }
-//     }
-//     if (isSpaceOnly) {
-//         expanded.forEach((r) => r.splice(x, 0, '.'))
-//         x++
-//     }
-// }
-
 const galaxies = data
     .map((r, y) =>
         r
