@@ -4,5 +4,8 @@
   "description": "",
   "author": "Neo Choi",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  }
 }
